@@ -1,0 +1,70 @@
+- How do encoders/decoders work as it pertains to text classification and deep learning?
+	- An encoder takes a string as input and converts it into a numerical vector.
+	- A decoder takes an encoded string and decodes it from a numerical vector to its original word.
+		- EX: For the sentence "the dog is hungry," "dog" ----> [0, 1, 0, 0]
+- What is "buffer size" as it pertains to NLP and deep learning? 
+- What is "one-hot encoding?"
+	- One-hot encoding is a method of turning a token into a word vector, or transforming
+	  categorical features into numerical ones. 
+	- It consists of associating a unique integer index with every word 
+	  and then turning that i into a binary vector of size N (the length of your vocabulary).
+	- For example:
+		If your vocabulary is size N = 5 and you wanted to one-hot encode the word "cat", 
+		a one-hot encoded version of "cat" would look something like:
+			[1, 0, 0, 0, 0] 
+- What is an LTSM layer?
+- What is character-based RNN?
+- The two fundamental deep learning algorithms for text and sequence processing
+  are recurrent neural networks (RNNs) and 1D convnets.
+- What is back propagation?
+	- machine learning algorithm that updates weights every iteration.
+- What does it mean to "embed" words?
+- What is "teacher forcing?"
+- What is a "look-ahead mask?"
+- What is a lambda layer?
+- The basic Tensorflow workflow is as follows:
+	1. Examine and Understand the Data
+	2. Build Input Pipeline
+	3. Buld Model
+	4. Train Model
+	5. Test Model 
+	6. Improve the Model and Repeat
+- What is a hash function?
+- What do ellipses (...) mean?
+	- Used to slice multi-dimensional arrays
+	- For example, [..., 0] is the same as [:, :, 0] or [:, 0]
+- What is the difference between interfaces and abstract classes in Java?
+	- Unlike an interface, an abstract class can have concrete methods (i.e. you can put shit in the body)
+- What are pointers?
+	- A pointer is a variable that holds the memory address of where a value is. 
+- When would you use abstract/interface in Java?
+	- An interface is a collection of method declarations with n	  no bodies. 
+	- Interfaces are how Java achieves abstraction, a programming paradigm that specifies WHAT a class does but not how. 
+	 - It allows for multiple class inheritance.
+- A stack is memory reserved to maintain method invocations.
+	- The first method in the stack is the main() method. 
+- What are generics in Java?
+- How does binary search work?
+	- Given a sorted array:
+		1. You split the array into two halves.
+		2. Look at each index in the first half:
+			if element found ---> return index;
+			if element not in first half:
+				- search second half
+			else
+				return -1
+- How would you reverse a stack array?
+- What is gradient boosting?
+- Fiture out how to do a simple logistic regression in Python.
+- What is an ROC curve?
+- What does the iter() function in Python do?
+- Why is one-hot encoding an inefficient technique compared to embedding?
+- What is a protected member in Java?
+- What are timesteps in a Sequence model?
+- What is latency in computer science?
+- Concurrency is when multiple computations are happening at the same time. 
+- What's a kernel?
+- What is a reference?
+- Gradient boosting is a machine learning technique for regression and classification problems, 
+  which produces a prediction model in the form of an ensemble of weak prediction models, 
+  typically decision trees.  

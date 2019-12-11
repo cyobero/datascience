@@ -1,0 +1,7 @@
+- Tensorflow is an open-source software library designed to make the designing, building, and training 
+deep learning models.
+
+- It's essentially a Python library where:
+	- nodes represent calculations
+	- edges communicate with nodes
+

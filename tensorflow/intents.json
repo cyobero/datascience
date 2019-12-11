@@ -1,0 +1,12 @@
+{"intents": [
+		{"tag": "greeting", 
+		"patterns": ["hello", "hi", "sup?", "what up?", "ay", "yo", "what's good?"],
+		"responses": ["what up", "hey", "yo", "hello"], 
+		"context_set": ""
+		},
+		{"tag":"goodbye",
+		"patterns": ["bye", "deuces", "see ya", "I'm out", "later fam", "ttyl"],
+		"responses": ["bye", "later", "aight see ya"],
+		"context_set": ""
+		}
+]}
